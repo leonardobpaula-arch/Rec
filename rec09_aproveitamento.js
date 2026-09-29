@@ -18,7 +18,7 @@ const util = entrada.questionInt("Digite a quantidade útil:");
 const percentual = calcularAproveitamento(util, total);
 const classificacao = classificarAproveitamento(percentual);
 
-console.log(`Total: ${total}`);
+console.log(`\nTotal: ${total}`);
 console.log(`Quantidade útil: ${util}`);
 console.log(`Percentual: ${percentual.toFixed(2)} %`);
 console.log(`Classificação: ${classificacao}`);

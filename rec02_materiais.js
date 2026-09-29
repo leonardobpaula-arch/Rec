@@ -8,5 +8,5 @@ const total = quantidade * preco;
 
 console.log(`Peca ${nome}`);
 console.log(`${quantidade} pecas`);
-console.log(`Preco da peca e de: ${preco}`);
+console.log(`Preco da peca e de: ${preco.toFixed(2)}`);
 console.log(`O valor total da compra foi de ${total} reais`);
